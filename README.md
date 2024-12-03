@@ -16,7 +16,7 @@ A simple console-based Java application that serves as an Online Job Portal. It 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/online-job-portal.git
+    git clone https://github.com/Akhil3325/ONLINE-JOB-PORTAL05
     ```
 2. Navigate to the project directory:
     ```bash
