@@ -1,5 +1,0 @@
-git init
-git add .gitignore
-git commit -m "Add Java project files"
-git remote add origin https://github.com/Akhil3325/ONLINE-JOB-PORTAL05.git
-
