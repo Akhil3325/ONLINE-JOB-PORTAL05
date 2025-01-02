@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Welcome to the Online Job Portal</h1>
+</header>
+<main>
+  <section class="login-form">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p>New user? <a href="/register">Register here</a></p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Online Job Portal</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal - Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Join the Online Job Portal</h1>
+</header>
+<main>
+  <section class="registration-form">
+    <h2>Create an Account</h2>
+    <form action="/register" method="post">
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="/login">Login here</a></p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Online Job Portal</p>
+</footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal - User Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>User Profile</h1>
+  <nav>
+    <a href="/dashboard">Dashboard</a> |
+    <a href="/jobs">Browse Jobs</a> |
+    <a href="/logout">Logout</a>
+  </nav>
+</header>
+<main>
+  <section class="profile-details">
+    <h2>Your Profile</h2>
+    <div class="profile-info">
+      <p><strong>Full Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> johndoe@example.com</p>
+      <p><strong>Location:</strong> New York, USA</p>
+      <p><strong>Skills:</strong> Java, Python, Web Development</p>
+    </div>
+    <button onclick="window.location.href='/edit-profile'">Edit Profile</button>
+  </section>
+  <section class="applied-jobs">
+    <h2>Jobs You Applied For</h2>
+    <ul>
+      <li>Software Engineer at XYZ Corp</li>
+      <li>Frontend Developer at ABC Inc</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Online Job Portal</p>
+</footer>
+</body>
+</html>
+
